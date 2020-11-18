@@ -1,17 +1,24 @@
 Package: dataVision
-Title: What the Package Does (One Line, Title Case)
+Title: dataVision Plots Data for Easy, Fast Data Visualization
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Adrienne",
+           family = "Kinman",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "adrienne.kinman@gmail.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: dataVision takes an x and y variable and dataset and plots the data for easy visualization on the fly.
 License: MIT + file LICENSE
-Suggests: 
-    testthat
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Imports: 
+    datasets,
+    dplyr,
+    testthat,
+    magrittr
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

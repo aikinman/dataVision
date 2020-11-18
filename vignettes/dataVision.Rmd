@@ -1,0 +1,28 @@
+---
+title: "dataVision"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{dataVision}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+To use dataVision, supply an x variable, y variable and dataframe and watch the magic unfold! 
+
+Two examples pulled from two different datasets dataframes. 
+
+```{r setup}
+library(dataVision)
+
+dataVision('Species', 'Sepal.Length',  iris)
+
+dataVision('speed', 'dist', cars)
+
+```
