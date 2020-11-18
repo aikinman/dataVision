@@ -26,8 +26,6 @@ This is a basic example which shows you how to use the dataVision function:
 library(dataVision)
 dataVision('Sepal.Width', 'Petal.Width', iris)
 #> Plotting your data...stay tuned!
-
-dataVision('speed', 'dist', cars)
 ```
 
 <img src="man/figures/README-example-1.png" width="100%" />
