@@ -32,9 +32,7 @@ dataVision('speed', 'dist', cars)
 
 <img src="man/figures/README-example-1.png" width="100%" />
 
-```
-## How I made this R package
-
+How I made this R package
 I first loaded in library devtools and created a tidy package.
 ```{r package code: creating the R package}
 library(devtools)
