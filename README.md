@@ -20,17 +20,26 @@ install.packages("dataVision")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how to use the dataVision function:
 
 ``` r
 library(dataVision)
 dataVision('Sepal.Width', 'Petal.Width', iris)
 #> Plotting your data...stay tuned!
+
+dataVision('speed', 'dist', cars)
 ```
 
 <img src="man/figures/README-example-1.png" width="100%" />
 
+And another! 
+``` r
+library(dataVision)
+dataVision('speed', 'dist', cars)
+#> Plotting your data...stay tuned!
 
+
+```
 ## How I made this R package
 
 I first loaded in library devtools and created a tidy package.
