@@ -32,13 +32,6 @@ dataVision('speed', 'dist', cars)
 
 <img src="man/figures/README-example-1.png" width="100%" />
 
-And another! 
-``` r
-library(dataVision)
-dataVision('speed', 'dist', cars)
-#> Plotting your data...stay tuned!
-
-
 ```
 ## How I made this R package
 
